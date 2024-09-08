@@ -16,10 +16,10 @@ import {
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-export const createTable = pgTableCreator((name) => `t3-test_${name}`);
+export const createTable = pgTableCreator((name) => `pow_supabase_${name}`);
 
-export const posts = createTable(
-  "post",
+export const twitters = createTable(
+  "twitter",
   {
     id: serial("id").primaryKey(),
     name: varchar("name", { length: 256 }),
@@ -34,3 +34,5 @@ export const posts = createTable(
     nameIndex: index("name_idx").on(example.name),
   })
 );
+
+export type InsertTwitter = typeof twitters.$inferInsert;

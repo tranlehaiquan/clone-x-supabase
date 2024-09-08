@@ -7,6 +7,6 @@ export default {
   dbCredentials: {
     url: process.env.DATABASE_URL!,
   },
-  tablesFilter: ["t3-test_*"],
+  tablesFilter: ["pow_supabase_*"],
 } satisfies Config;
 

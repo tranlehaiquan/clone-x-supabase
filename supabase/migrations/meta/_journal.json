@@ -8,6 +8,20 @@
       "when": 1725337473902,
       "tag": "0000_magenta_jigsaw",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1725785405445,
+      "tag": "0001_mixed_silver_centurion",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1725785860177,
+      "tag": "0002_bumpy_lockjaw",
+      "breakpoints": true
     }
   ]
 }

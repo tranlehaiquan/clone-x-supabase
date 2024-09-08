@@ -1,4 +1,28 @@
-# Create T3 App
+# Clone Twitter app
+
+Teach stack: Next.js, Supabase, Drizzle, Tailwind CSS, tRPC
+
+## Getting Started
+
+First, run the development server:
+
+Install:
+
+- pnpm
+- Node.js
+- Docker
+
+```bash
+pnpm install
+
+# start docker container
+npx supabase start
+
+# then update .env file
+
+# start next.js
+pnpm dev
+```
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
